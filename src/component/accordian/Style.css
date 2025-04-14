@@ -1,0 +1,39 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper button{
+  padding: 20px;
+  background-color: lightcyan;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.accordian{
+  width: 500px;
+}
+.item{
+  background-color: lightcyan;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content{
+  height: auto;
+}
+.title h2{
+  padding: 0;
+}
