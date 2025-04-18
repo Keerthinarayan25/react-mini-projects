@@ -1,6 +1,7 @@
-import React from 'react'
-import './App.css';
-import Accordian from './component/accordian';
+import React from "react";
+import "./App.css";
+import { slides } from "./component/image-slider/CarouselData.json";
+//import Accordian from "./component/accordian";
 
 //import MyComponent2 from './MyComponent2';
 
@@ -16,13 +17,14 @@ function App() {
     <List items={fruits} category="fruits" />
     );
     */
-   
-   return(
-    <div className='App'>
-      <Accordian /> 
 
+  return (
+    <div className="App">
+      {/*<Accordian />*/}
+
+      <Carousel data={slides} />
     </div>
   );
 }
 
-export default App
+export default App;
