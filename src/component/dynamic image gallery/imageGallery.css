@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.figure-list-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.button-box{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.action-button{
+  padding: 10px 20px ;
+  margin: 10px;
+  background-color: rgb(108, 205, 108);
+  border: none;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover{
+  background-color: #45a049;
+}
+
+
+.figure-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.figure-list img{
+  max-width: 200px;
+  max-height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+
+}
+
+.figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,1.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+.figure:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.figure-caption{
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
